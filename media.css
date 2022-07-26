@@ -1,0 +1,293 @@
+/* MEDIA QUERY */
+
+/*************************************/
+/* BELLOW 1344PX (smaller desktops) */
+/*************************************/
+
+/* How to discover em value: 1577px / 16px = 99em */
+@media (max-width: 99em) {
+  .main-container {
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+
+  .btnCal {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media (max-width: 78em) {
+  .main-container {
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+
+  .display {
+    height: fit-content;
+    font-size: 60px;
+    height: 150px;
+  }
+
+  .btnCal {
+    height: 50px;
+    width: 50px;
+  }
+
+  .switch {
+    width: 25px;
+    height: 13px;
+  }
+
+  .slider:before {
+    height: 10px;
+    width: 13px;
+    left: 1px;
+    bottom: 2px;
+  }
+}
+
+/*************************************/
+/* BELLOW 1200PX (Landscape Tablets) */
+/*************************************/
+
+@media (max-width: 69em) {
+  .main-container {
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+
+  .display {
+    height: fit-content;
+    font-size: 45px;
+    height: 100px;
+  }
+
+  .btnCal {
+    height: 40px;
+    width: 40px;
+  }
+
+  .switch {
+    width: 20px;
+    height: 10px;
+  }
+
+  .slider:before {
+    height: 7px;
+    width: 9px;
+    left: 1px;
+    bottom: 1px;
+  }
+}
+
+/*************************************/
+/* BELLOW 944PX (Tablets) */
+/*************************************/
+
+@media (max-width: 58em) {
+  .main-container {
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+
+  .display {
+    height: fit-content;
+    font-size: 35px;
+    height: 80px;
+  }
+
+  .display-history {
+    font-size: 9px;
+  }
+
+  .btnCal {
+    height: 30px;
+    width: 30px;
+    font-size: 22px;
+  }
+
+  .switch {
+    width: 20px;
+    height: 10px;
+  }
+
+  .slider:before {
+    height: 7px;
+    width: 9px;
+    left: 1px;
+    bottom: 1px;
+  }
+}
+
+/*************************************/
+/* BELLOW 780px (Smaller Tablets) */
+/*************************************/
+
+@media (max-width: 50em) {
+  .main-container {
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+
+  .display {
+    height: fit-content;
+    font-size: 32px;
+    height: 80px;
+  }
+
+  .keys {
+    row-gap: 4px;
+    column-gap: 0px;
+  }
+
+  .btnCal {
+    height: 26px;
+    width: 26px;
+    font-size: 14px;
+  }
+
+  .switch {
+    width: 20px;
+    height: 10px;
+  }
+
+  .slider:before {
+    height: 7px;
+    width: 9px;
+    left: 1px;
+    bottom: 1px;
+  }
+}
+
+/*************************************/
+/* BELLOW 657px (Smaller Tablets) */
+/*************************************/
+
+@media (max-width: 41em) {
+  .main-container {
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+
+  .display {
+    height: fit-content;
+    font-size: 18px;
+    height: 71px;
+  }
+
+  .keys {
+    row-gap: 4px;
+    column-gap: 0px;
+  }
+
+  .btnCal {
+    height: 20px;
+    width: 22px;
+    font-size: 12px;
+  }
+
+  .switch {
+    width: 20px;
+    height: 10px;
+  }
+
+  .slider:before {
+    height: 7px;
+    width: 9px;
+    left: 1px;
+    bottom: 1px;
+  }
+}
+
+/*************************************/
+/* BELLOW 540px (Mobile) */
+/*************************************/
+
+@media (max-width: 41em) {
+  .main-container {
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+
+  .display {
+    height: fit-content;
+    font-size: 18px;
+    height: 71px;
+  }
+
+  .keys {
+    row-gap: 4px;
+    column-gap: 5px;
+  }
+
+  .btnCal {
+    height: 20px;
+    width: 22px;
+    font-size: 12px;
+  }
+
+  .switch {
+    width: 20px;
+    height: 10px;
+  }
+
+  .slider:before {
+    height: 7px;
+    width: 9px;
+    left: 1px;
+    bottom: 1px;
+  }
+}
+
+/*************************************/
+/* BELLOW 540px (Mobile) */
+/*************************************/
+
+@media (max-width: 34em) {
+  .main-container {
+    margin: 0 auto;
+    margin-top: 5rem;
+
+  }
+
+  .display {
+    height: fit-content;
+    font-size: 18px;
+    height: 56px;
+  }
+
+  .keys {
+    row-gap: 0px;
+    column-gap: 0px;
+    padding: 6px 5px;
+  }
+
+  .btnCal {
+    height: 18px;
+    width: 16px;
+    font-size: 9px;
+  }
+
+  .switch {
+    width: 20px;
+    height: 10px;
+  }
+
+  .slider:before {
+    height: 7px;
+    width: 9px;
+    left: 1px;
+    bottom: 1px;
+  }
+}
+
+/*************************************/
+/* BELLOW 443px (Mobile) */
+/*************************************/
+
+@media (max-width: 27em) {
+  .main-container {
+    display: none;
+  }
+}

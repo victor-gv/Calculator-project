@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="./media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=IBM+Plex+Serif:wght@100;200&family=Work+Sans:wght@500;600&display=swap"
+    rel="stylesheet" />
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="main-container ">
+    <div class="btn-switch">
+      <label class="switch">
+        <input type="checkbox" />
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="display display-num--dark">
+      <div class="display-history"></div>
+      <div id="display-number">0</div>
+    </div>
+    <div class="keys">
+      <button class="btnCal btn-light--yellow" data-action="clear">C</button>
+      <button class="btnCal btn-light--yellow" data-action="±">±</button>
+      <button class="btnCal btn-light--yellow" data-operation="%">%</button>
+      <button class="btnCal btn-light--orange" data-operation="/">÷</button>
+      <button class="btnCal btn-dark" data-number="7">7</button>
+      <button class="btnCal btn-dark" data-number="8">8</button>
+      <button class="btnCal btn-dark" data-number="9">9</button>
+      <button class="btnCal btn-light--orange" data-operation="*">&times;</button>
+      <button class="btnCal btn-dark" data-number="4">4</button>
+      <button class="btnCal btn-dark" data-number="5">5</button>
+      <button class="btnCal btn-dark" data-number="6">6</button>
+      <button class="btnCal btn-light--orange" data-operation="-">-</button>
+      <button class="btnCal btn-dark" data-number="1">1</button>
+      <button class="btnCal btn-dark" data-number="2">2</button>
+      <button class="btnCal btn-dark" data-number="3">3</button>
+      <button class="btnCal btn-light--orange" data-operation="+">+</button>
+      <button class="btnCal btn-dark" data-number="0">0</button>
+      <button class="btnCal btn-dark" data-action="decimal">.</button>
+      &nbsp; <button class="btnCal btn-light--orange" data-action="=">=</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
